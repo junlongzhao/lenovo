@@ -1,0 +1,8 @@
+1.git init
+2.  ssh-keygen -t rsa -C "453824113@qq.com"生成密匙
+git remote add origin https://github.com/junlongzhao/win10.git  与仓库建立连接
+2.git add python.txt（进入建立的仓库里)
+3.git commit -m "常见语法"
+4.git config --global user.email "453824113@qq.com" 首次设置
+5.git config --global user.name "junlongzhao" 首次设置
+6.git push -u origin master
