@@ -6,3 +6,4 @@ git remote add origin https://github.com/junlongzhao/win10.git  与仓库建立连接
 4.git config --global user.email "453824113@qq.com" 首次设置
 5.git config --global user.name "junlongzhao" 首次设置
 6.git push -u origin master
+7.git reset --hard HEAD~x解决 ,这里的x表示的就是在这之前已经有多少次的提交，这句命令的意思就是直接回退到x 个commit之前（这两次提交所改动的代码都没有了，慎用）
